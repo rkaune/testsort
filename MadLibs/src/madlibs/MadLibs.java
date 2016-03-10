@@ -12,6 +12,7 @@ import java.util.Scanner;
 /**
  *
  * @author NiCha7897
+ * Modified by Kaune 10/03/2016
  */
 public class MadLibs {
 
