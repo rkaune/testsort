@@ -10,7 +10,7 @@ import java.io.*;
 import java.util.Scanner;
 
 /**
- * NEW CHANGE
+ *
  * @author NiCha7897
  * Modified by Kaune 10/03/2016
  */
