@@ -90,6 +90,7 @@
 
 
 	public static void main(String[] args) {
-		sortIntArray();
+		//sortIntArray();
+                sortObjectArray();
 	}
 }
