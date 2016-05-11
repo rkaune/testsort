@@ -13,6 +13,8 @@
 	 * post: items has been sorted from low to high
 	 */
 	public static void selectionSort(int[] items) {
+		long start,stop,elapsed;
+                start=System.currentTimeMillis();
 		
 		for (int index = 0; index < items.length; index++) {
 			for (int subIndex = index; subIndex < items.length; subIndex++) {
@@ -23,6 +25,9 @@
 				}
 			}	
 		}
+		stop=System.currentTimeMillis();
+                elapsed = stop-start;
+                System.out.println("The elapsed time is " + elapsed + "milliseconds");
 	}
 
 
